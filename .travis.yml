@@ -4,8 +4,9 @@ language: generic
 services:
   - docker
 branches:
-  only:
-    - master
+  except:
+    - gh-pages
+    - output
 before_install:
   - wget https://repo.continuum.io/miniconda/Miniconda3-4.6.14-Linux-x86_64.sh
     --output-document miniconda.sh
@@ -24,10 +25,3 @@ script:
 cache:
   directories:
     - ci/cache
-deploy:
-  provider: script
-  script: bash -o xtrace ci/deploy.sh
-  skip_cleanup: true
-  on:
-    branch: master
-    condition: $TRAVIS_EVENT_TYPE = "push"
