@@ -1,5 +1,5 @@
 ---
-title: "Manuscript Title"
+title: "Parasite Report: Yet Another New Way of Exploring Immunity"
 keywords:
   - markdown
   - publishing
@@ -7,21 +7,11 @@ keywords:
 lang: en-US
 author_info:
   -
-    github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+    github: armish
+    name: Bulent Arman Aksoy
+    initials: BAA
+    orcid: 0000-0002-0135-2505
+    twitter: armish
+    email: arman@aksoy.org
     affiliations:
-      - Department of Something, University of Whatever
-    funders: Grant XXXXXXXX
-  -
-    github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of Microbiology and Immunology, Medical University of Sout Carolina
